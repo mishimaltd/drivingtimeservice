@@ -2,6 +2,7 @@ package com.mishima.tripbuddy.drivingtimeservice;
 
 import com.mishima.tripbuddy.drivingtimeservice.entity.DrivingTimeQuery;
 import com.mishima.tripbuddy.drivingtimeservice.entity.DrivingTimeResponse;
+import com.mishima.tripbuddy.drivingtimeservice.web.GoogleDistanceAdapter;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

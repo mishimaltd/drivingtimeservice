@@ -1,4 +1,4 @@
-package com.mishima.tripbuddy.drivingtimeservice;
+package com.mishima.tripbuddy.drivingtimeservice.web;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
