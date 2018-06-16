@@ -7,6 +7,7 @@ import com.mishima.tripbuddy.drivingtimeservice.entity.DrivingTimeQuery;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
@@ -17,7 +18,7 @@ import javax.annotation.Nullable;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.BodyInserters.fromObject;
 
-
+@RequestMapping(value = "/query")
 @Component
 @Slf4j
 public class DrivingTimeHandler {
